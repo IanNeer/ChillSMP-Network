@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "GrandWazzock"
+  },
+  "text": {
+    "more": "ChillSMP\u0027s social network.  Claim data was used to identify source/target notes and construct an undirected graph.  The Louvain algorithm was then applied to maximize modularity in the network and discover communities.  Nodes were colored by modularity class.  Nodes were sized by eigenvector centrality.",
+    "intro": "A graph of ChillSMP\u0027s social network and subnetworks.",
+    "title": "ChillSMP Social Network"
+  },
+  "legend": {
+    "edgeLabel": "Exports",
+    "colorLabel": "Weight Outdegree",
+    "nodeLabel": "Weighted In-Degree"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "Modularity Class",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
